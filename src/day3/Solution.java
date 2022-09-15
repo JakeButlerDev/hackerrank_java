@@ -1,4 +1,4 @@
-package introduction;
+package day3;
 
 //        Task
 //        Given an integer,n, perform the following conditional actions:
@@ -20,23 +20,25 @@ package introduction;
 //
 //        Print Weird if the number is weird; otherwise, print Not Weird.
 
-import java.util.Scanner;
+import java.io.*;
 
-public class If_Else {
+import static java.util.stream.Collectors.joining;
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
 
-        if (!(n % 2 == 0)) {
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int N = Integer.parseInt(bufferedReader.readLine().trim());
+
+        if (N % 2 != 0) {
             System.out.println("Weird");
-        } else if (n % 2 == 0 && (n >= 2 && n <= 5)) {
-            System.out.println("Not Weird");
-        } else if (n % 2 == 0 && (n >= 6 || n <= 20)) {
+        } else if (N % 2 == 0 && (N >= 6 && N <= 20)) {
             System.out.println("Weird");
-        } else if (n % 2 == 0 && n >20) {
+        } else {
             System.out.println("Not Weird");
         }
-    }
 
+        bufferedReader.close();
+    }
 }
