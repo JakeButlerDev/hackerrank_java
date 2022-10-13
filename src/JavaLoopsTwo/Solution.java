@@ -11,15 +11,14 @@ class Solution{
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
-
-            String ans = "";
-            int sum = 0;
-            for (int j = 0; j < n; j++) {
-                sum = (a + ((int)Math.pow(2, j) * b));
-                ans += Integer.toString(sum) + " ";
+            int result=a+(int)Math.pow(2,0)*b;
+            System.out.print(result+" ");
+            for(int j=1; j<n; j++)
+            {
+                result +=(int)Math.pow(2,j)*b;
+                System.out.print(result+" ");
             }
-            System.out.println(ans);
-
+            System.out.println();
         }
         in.close();
     }
