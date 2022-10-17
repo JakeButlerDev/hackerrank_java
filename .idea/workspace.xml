@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c8394e-5319-476c-9491-4e6479712283" name="Changes" comment="Completed one exercise">
-      <change afterPath="$PROJECT_DIR$/src/IntToString/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringsIntroduction/Solution.java" afterDir="false" />
+    <list default="true" id="f5c8394e-5319-476c-9491-4e6479712283" name="Changes" comment="Completed four exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaLoopsTwo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaLoopsTwo/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665453941381</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed four exercises">
+      <created>1665622000543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665622000543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +111,7 @@
     <MESSAGE value="Completed 1 more exercise" />
     <MESSAGE value="Completed 2 more exercise2" />
     <MESSAGE value="Completed one exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed one exercise" />
+    <MESSAGE value="Completed four exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed four exercises" />
   </component>
 </project>
